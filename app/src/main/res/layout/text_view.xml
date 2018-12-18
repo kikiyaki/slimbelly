@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Для изменения веса нажмите на значение веса в нужной строке.
+Взвешивайтесь каждый день в одно время, например, перед сном."
+    android:textColor="@color/blue"
+    android:textSize="15dp">
+
+</TextView>

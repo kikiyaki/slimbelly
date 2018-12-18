@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.spravka.VacActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/vac_spravka1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/blue"
+            android:text="Вакуум живота"
+            android:textSize="25dp"/>
+
+        <ImageView
+            android:id="@+id/image_vac_spravka"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@id/vac_spravka1"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/vacuum2" />
+
+        <TextView
+            android:id="@+id/vac_spravka2"
+            android:layout_below="@id/image_vac_spravka"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:padding="5dp"
+            android:text="@string/vacuum"/>
+
+    </RelativeLayout>
+
+</ScrollView>

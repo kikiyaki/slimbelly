@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\SlimBelly\app\src\main\assets"><file name="end.ogg" path="C:\SlimBelly\app\src\main\assets\end.ogg"/><file name="nach.ogg" path="C:\SlimBelly\app\src\main\assets\nach.ogg"/><file name="otd.ogg" path="C:\SlimBelly\app\src\main\assets\otd.ogg"/></source><source path="C:\SlimBelly\app\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="C:\SlimBelly\app\src\release\assets"/></dataSet></merger>

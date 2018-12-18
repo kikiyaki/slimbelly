@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".intro.SecondActivity"
+    android:background="@drawable/budilnik">
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="20dp"
+        android:textColor="@color/blue"
+        android:text="Во сколько подьем"
+        android:backgroundTint="@color/white"
+        android:gravity="center_horizontal"
+
+        android:onClick="setTime"
+        />
+    <View
+        android:layout_below="@id/time"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:background="#ffffff"
+        />
+
+
+    <Button
+        android:id="@+id/buttonWake"
+        android:layout_height="40dp"
+        android:layout_width="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/time"
+        android:layout_marginTop="7dp"
+        android:text="Ок"
+        android:textColor="@color/white"
+        android:onClick="onBtn2"
+        android:textSize="15dp" />
+
+</RelativeLayout>

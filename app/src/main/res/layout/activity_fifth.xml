@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".intro.FifthActivity"
+    android:background="@drawable/vacuum"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вакуум живота"
+        android:gravity="center_horizontal"
+        android:textSize="25dp"
+        android:textColor="@color/blue"
+        />
+
+    <TableRow
+        android:padding="5dp">
+        <TextView
+            android:paddingRight="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vac1"
+            android:textSize="20dp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Зарядка"
+            android:textColor="@color/blue"
+            android:textSize="20dp" />
+    </TableRow>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/textVac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vac"
+            android:textSize="15dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/textVac"
+            android:onClick="onBtn5"
+            android:text="Ок"
+            android:layout_marginTop="7dp"/>
+    </RelativeLayout>
+
+</TableLayout>

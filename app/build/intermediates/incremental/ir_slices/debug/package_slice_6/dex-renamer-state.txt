@@ -1,0 +1,4 @@
+#Fri Oct 12 15:36:30 MSK 2018
+base.0=C\:\\SlimBelly\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\92
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VacuumActivity"
+    android:background="@drawable/vacuum">
+
+    <TextView
+        android:id="@+id/vac1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/blue"
+        android:text="Вакуум живота"
+        android:textSize="25dp"/>
+
+
+
+    <TextView
+        android:id="@+id/vac2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vac1"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text="Приготовьтесь"/>
+
+    <ImageView
+        android:id="@+id/vac_image"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/vac2"
+        android:layout_above="@id/vac3"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/vacuum2"/>
+
+    <TextView
+        android:id="@+id/vac3"
+        android:layout_above="@id/vac_timer"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:padding="5dp"
+        android:text="Вдохните полной грудью и на выдохе максимально втяните живот как на картинке. Держите его в таком положении."/>
+
+
+
+    <TextView
+        android:id="@+id/vac_timer"
+        android:layout_above="@id/vac_button"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@color/blue"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/vac_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onTimerButton"
+        android:padding="5dp"
+        android:text="Начать тренировку" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".intro.ThirdActivity"
+    android:background="@drawable/regim"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Режим питания"
+        android:gravity="center_horizontal"
+        android:textSize="25dp"
+        android:textColor="@color/blue"
+        />
+
+    <TableRow
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/zavtrak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Завтрак"
+            android:textColor="@color/blue"
+            android:textSize="20dp" />
+    </TableRow>
+
+    <TableRow
+        android:padding="5dp">
+        <TextView
+            android:paddingRight="30dp"
+            android:id="@+id/obed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Обед"
+            android:textColor="@color/blue"
+            android:textSize="20dp" />
+    </TableRow>
+
+    <TableRow
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/ugin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ужин"
+            android:textSize="20dp"
+            android:textColor="@color/blue"/>
+    </TableRow>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textDiet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/diet"
+            android:textSize="15dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/textDiet"
+            android:onClick="onBtn3"
+            android:text="Ок"
+            android:layout_marginTop="7dp"/>
+    </RelativeLayout>
+
+
+
+
+
+</TableLayout>

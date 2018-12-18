@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hfad.slimbelly"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.hfad.slimbelly.MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hfad.slimbelly.intro.FirstActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hfad.slimbelly.intro.SecondActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hfad.slimbelly.intro.ThirdActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hfad.slimbelly.intro.FourthActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hfad.slimbelly.intro.FifthActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hfad.slimbelly.main.RegimeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hfad.slimbelly.main.SvodkaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hfad.slimbelly.main.SpravkaActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hfad.slimbelly.TrainingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hfad.slimbelly.VacuumActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hfad.slimbelly.main.spravka.MealActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hfad.slimbelly.main.spravka.TrainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hfad.slimbelly.main.spravka.VacActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hfad.slimbelly.main.spravka.TheoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hfad.slimbelly.main.spravka.TrainTrainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hfad.slimbelly.AndroidDatabaseManager"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light" />
+
+        <receiver
+            android:name="com.hfad.slimbelly.MyReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <service
+            android:name="com.hfad.slimbelly.TrainingIntentService"
+            android:exported="false" />
+
+        <activity android:name="com.hfad.slimbelly.intro.IntroActivity" />
+
+        <service
+            android:name="com.hfad.slimbelly.VacuumIntentService"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.hfad.slimbelly.MyReceiver2"
+            android:enabled="true"
+            android:exported="true" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>

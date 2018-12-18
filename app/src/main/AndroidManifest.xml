@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hfad.slimbelly">
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".intro.FirstActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".intro.SecondActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".intro.ThirdActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".intro.FourthActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".intro.FifthActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".main.RegimeActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".main.SvodkaActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".main.SpravkaActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".TrainingActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".VacuumActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".main.spravka.MealActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".main.spravka.TrainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".main.spravka.VacActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".main.spravka.TheoryActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".main.spravka.TrainTrainActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".AndroidDatabaseManager"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light" />
+
+        <receiver
+            android:name=".MyReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <service
+            android:name=".TrainingIntentService"
+            android:exported="false" />
+
+        <activity android:name=".intro.IntroActivity" />
+
+        <service
+            android:name=".VacuumIntentService"
+            android:exported="false" />
+
+        <receiver
+            android:name=".MyReceiver2"
+            android:enabled="true"
+            android:exported="true"></receiver>
+    </application>
+
+</manifest>
