@@ -15,9 +15,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7912eb6-1599-4c94-ac89-b278bf27e11c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c7912eb6-1599-4c94-ac89-b278bf27e11c" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -2321,7 +2319,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533157441109</updated>
-      <workItem from="1693402127481" duration="499000" />
+      <workItem from="1693402127481" duration="855000" />
     </task>
     <servers />
   </component>
